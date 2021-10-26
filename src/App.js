@@ -20,10 +20,10 @@ class App extends React.Component  {
       <div className="App">
         <header className="App-header">
           <h3>Lucky Number</h3>
-          <h1 className="LuckyNumber">
+          <h1 className="LuckyNumber display-1">
           {this.state.luckyNumber==0 ? '?' : this.state.luckyNumber}
           </h1>
-          <button onClick={this.play}>Play</button>
+          <button className="btn btn-primary" onClick={this.play}>Play</button>
         </header>
 
       </div>
